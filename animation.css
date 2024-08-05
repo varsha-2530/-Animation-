@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(245, 241, 234);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: violet; */
+    height: 100%;
+    margin: 50px 0px;
+    
+ }
+
+ 
+
+ .one{
+    
+
+    height: 500px;
+    width: 20%;
+    background-color: rgb(208, 90, 16);
+    margin: 70px;
+    animation-name: right;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    
+     
+ }
+
+ @keyframes right {
+    0%{
+        transform: translateX(-10%);
+    }
+    50%{
+        transform: translateX(10%);
+    }
+    100%{
+        transform: translateX(-10%);
+    }
+   
+ }
+
+ .two{
+    height: 500px;
+    width: 20%;
+    background-color: rgb(208, 90, 16);
+    margin: 70px;
+    margin: 5px 5px;
+    animation-name: left;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+   
+   
+  
+    
+ }
+
+ @keyframes left {
+    0%{
+        transform: translateX(10%);
+    }
+    50%{
+        transform: translateX(-10%);
+    }
+    100%{
+        transform: translateX(10%);
+    }
+   
+ }
